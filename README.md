@@ -1,4 +1,4 @@
-# ObedientTextView
+# ObedientTextView [![](https://jitpack.io/v/dyguests/ObedientTextView.svg)](https://jitpack.io/#dyguests/ObedientTextView)
 
 A TextView that can wrap_content and not outside it's parent viewGroup.
 
@@ -7,6 +7,16 @@ A TextView that can wrap_content and not outside it's parent viewGroup.
 ![gsample](/graphics/cap.gif)
 
 # Usage
+
+module gradle:
+
+```groovy
+	dependencies {
+	        compile 'com.github.dyguests:ObedientTextView:v1.0'
+	}
+```
+
+in xml:
 
 ```xml
   <com.fanhl.obedienttextview.ObedientTextView
