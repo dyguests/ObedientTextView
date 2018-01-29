@@ -12,4 +12,4 @@ A TextView that can wrap_content and not outside it's parent viewGroup.
             .../>
 ```
 
-**notice:**you must set `android:layout_width="wrap_content"`.
+**notice:** you must set `android:layout_width="wrap_content"`.
