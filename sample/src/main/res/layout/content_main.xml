@@ -38,14 +38,22 @@
             android:background="#ff36fc"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="2234234234234234234234asdasdf23423"/>
+            android:paddingBottom="2dp"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp"
+            android:paddingTop="2dp"
+            android:text="1324123423412341234234"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#4385ff"
-            android:maxLines="1"
-            android:text="Hello World!"/>
+        <ImageView
+            android:id="@+id/img_hot"
+            android:layout_width="32dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:visibility="visible"/>
     </LinearLayout>
 
     <EditText

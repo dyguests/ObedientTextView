@@ -21,7 +21,8 @@ in xml:
 ```xml
   <com.fanhl.obedienttextview.ObedientTextView
             android:layout_width="wrap_content"
-            .../>
+            android:layout_weight="1"
+                            .../>
 ```
 
-**notice:** you must set `android:layout_width="wrap_content"`.
+**notice:** you must set `android:layout_width="wrap_content"` and `android:layout_weight="1"`.
